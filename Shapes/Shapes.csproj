@@ -40,7 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\AreaCalculator.cs" />
+    <Compile Include="Business\ShapeAreaCalculator\IAreaCalculator.cs" />
+    <Compile Include="Business\ShapeAreaCalculator\RhombusAreaCalculator.cs" />
+    <Compile Include="Business\ShapeAreaCalculator\SquareAreaCalculator.cs" />
+    <Compile Include="Business\ShapeAreaCalculator\TriangleAreaCalculator.cs" />
     <Compile Include="Model\Rhombus.cs" />
+    <Compile Include="Model\Shape.cs" />
     <Compile Include="Model\Square.cs" />
     <Compile Include="Model\Triangle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

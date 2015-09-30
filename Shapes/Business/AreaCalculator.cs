@@ -9,9 +9,10 @@ namespace Shapes.Business
 {
     public class AreaCalculator
     {
-        public decimal Calculate(Square shape)
+        public decimal Calculate(Shape shape)
         {
-            return shape.Size*shape.Size;
+            return shape.CalcuateArea();
+
         }
     }
 }
